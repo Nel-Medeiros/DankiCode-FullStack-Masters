@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*Usa-se a virgula para compartilhar a estilização de 
+classes de itens não relacionados hierarquicamente no css*/
+.lista, .lista2 {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.lista li, .lista2 li {
+    color: rgb(27, 116, 27);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*No exemplo abaixo não é necessário usar virgula para o 
+caso ".lista .item3" pois estamos especificando que iremos 
+estilizar todas as tags que possuem a classe "item3" dentro 
+da tag que possui a classe "lista". Relação hierarquica*/
+.lista .item3, .lista2 .item3 {
+    color: mediumvioletred;
+    font-weight: bold;
+}
+
+.ordenada{
+    list-style-position: inside;
+}
+
+ol > li {
+    color: crimson;
+}

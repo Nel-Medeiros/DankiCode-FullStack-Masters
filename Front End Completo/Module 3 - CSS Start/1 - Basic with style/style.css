@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+h3 {
+    color: crimson;
+}
+
+p {
+    background-color: darkorchid;
+    color: white;
+}
+
+img {
+    width: 700px;
+    height: 500px;
+}
+
+.div1 {
+    background-color: azure;
+}
+
+.div2 {
+    background-color: lemonchiffon;
+}
+
+.div3 {
+    background-color: lightcoral;
+}

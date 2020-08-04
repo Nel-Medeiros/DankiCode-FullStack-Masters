@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*estiliza todos os links (a) que possuem o atributo 'href'*/
+a[href]{
+    background-color: aquamarine;
+}
+
+/*estiliza o link (a) que possui o atributo 'href' e o valor 'https://www.google.com.br'*/
+a[href="https://www.google.com.br"]{
+    font-size: 25px;
+}
+
+/*estiliza o link (a) que possui o atributo 'href' e que contém algum valor 'dan'*/
+a[href*="dan"]{
+    color: crimson;
+} 
+
+/*estiliza o link (a) que possui o atributo 'attr' e que inicia com o valor 'goo'*/
+a[attr^="goo"]{
+    color: darkseagreen;
+}
+
+/*estiliza o link (a) que possui o atributo 'attr' e que termina com o valor 'ze'*/
+a[attr$="ze"]{
+    font-size: 20px;
+}
+
+/*estiliza os inputs que possuem o atributo 'type=text'*/
+input[type=text]{
+    background-color: lightblue;
+    border: 1px solid lightgreen;
+}
+
+/*estiliza os inputs que possuem o atributo 'type=submit'*/
+input[type=submit]{
+    background-color: mediumturquoise;
+    border: 1px solid mediumseagreen;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.center {
+    box-sizing: border-box; /*A propriedade + atributo "box-sizing: border-box;" fazem com que o elemento respeite suas dimensões mesmo quando alteramos o padding. Ou seja, um elemento que foi definido para ter 1280px de largura vai sempre respeitar esse valor.*/   
+    width: 1280px;
+    margin: 0 auto;    
+    background-color: grey;    
+}
+
+.artigo {
+
+}

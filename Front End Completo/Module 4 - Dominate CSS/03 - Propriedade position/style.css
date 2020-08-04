@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.table1{
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table1 tr td{
+    border: 1px solid black;
+    background-color: azure;
+    height: 100px;
+    vertical-align: top;
+}
+
+
+.menu-fixed{
+    width: 100%;
+    height: 100px;    
+    background: #069;
+    position: relative; 
+    top: 30px;
+    /*o valor 'fixed' indica que o elemento deverá permanecer onde está em relação à página sempre, porém irá respeitar os valores de atributos como 'top' e 'right' em relação à página toda*/
+    /*o valor 'absolute' indica que o elemento irá se sobrepor aos outros elementose tbm respeitará os valores de atributos como 'top' e 'right' em relação à página toda*/
+    /*o valor 'relative' indica que o elemento se manterá no seu lugar na página e irá interpretar os valores nos atributos 'top' e 'right' sem sobrepor os outros*/
+}
+
+.box{
+    widows: 100%;
+    height: 1400px;
+    background: darkslateblue;    
+}
